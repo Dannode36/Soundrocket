@@ -4055,6 +4055,46 @@
 		)
 		(uuid "ff566568-c21d-4a90-a3b4-d10b08c41d92")
 	)
+	(label "DIT4192-TX+"
+		(at 252.73 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01618831-8f96-4af4-8d94-2a1021f949da")
+	)
+	(label "DIT4192-TX-"
+		(at 267.97 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f76a9d2-8d5e-4943-a43d-4a53fb0deaad")
+	)
+	(label "DIT4192-TX+"
+		(at 210.82 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b799a143-5b26-467d-9f65-27672991551e")
+	)
+	(label "DIT4192-TX-"
+		(at 210.82 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee752bf1-0702-4e67-a287-113a66f8654c")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 16.51 58.42 0)
@@ -4145,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 27.94 33.02 0)
 			(effects
 				(font
@@ -5002,7 +5042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
 			(at 24.13 54.356 0)
 			(effects
 				(font
@@ -5079,7 +5119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3FAAH-0_Horizontal"
 			(at 260.35 44.45 0)
 			(effects
 				(font
@@ -5149,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KiCad Models:Teensy40"
 			(at 78.74 82.55 0)
 			(effects
 				(font
