@@ -1040,6 +1040,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -3151,6 +3291,12 @@
 		(uuid "0a4055d3-dc65-4c11-9a19-79568999bda6")
 	)
 	(junction
+		(at 29.21 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ab02bc4-66d8-43d3-bfa2-49a6f555f57b")
+	)
+	(junction
 		(at 92.71 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3161,6 +3307,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "554f2c1d-cfbd-4ac6-a1cd-2644057fe6c6")
+	)
+	(junction
+		(at 13.97 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61835f2e-12ff-46db-9125-657aa17cad58")
 	)
 	(junction
 		(at 119.38 35.56)
@@ -3189,6 +3341,16 @@
 			(type default)
 		)
 		(uuid "0763c12c-f6e1-42fd-8432-f75fc64b4b2c")
+	)
+	(wire
+		(pts
+			(xy 29.21 72.39) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca4b9f5-b88c-4f97-bda0-9e7848db4a9e")
 	)
 	(wire
 		(pts
@@ -3403,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 55.88) (xy 13.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d555f60-f48a-4b6e-b3aa-b1577eab58da")
+	)
+	(wire
+		(pts
 			(xy 119.38 35.56) (xy 207.01 35.56)
 		)
 		(stroke
@@ -3411,16 +3583,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "3eb8ca06-d49c-4b0b-a821-ed3b243ddbdc")
-	)
-	(wire
-		(pts
-			(xy 19.05 68.58) (xy 60.96 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "411a5e3d-815b-47a1-a706-51b0d33f6ab7")
 	)
 	(wire
 		(pts
@@ -3515,6 +3677,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "5a7cb95c-6fa0-43e0-8b31-5b8fb936285e")
+	)
+	(wire
+		(pts
+			(xy 13.97 71.12) (xy 13.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e73f13a-4ffe-4e19-b0bd-8c8c2ac56fd1")
 	)
 	(wire
 		(pts
@@ -3695,6 +3867,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 78.74) (xy 29.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4d5bec-77e6-4ef5-b10a-d376e46e97ef")
+	)
+	(wire
+		(pts
 			(xy 142.24 149.86) (xy 142.24 60.96)
 		)
 		(stroke
@@ -3829,6 +4011,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 68.58) (xy 60.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3a7fa2-edf8-45d1-99d1-92a323485217")
+	)
+	(wire
+		(pts
 			(xy 55.88 119.38) (xy 60.96 119.38)
 		)
 		(stroke
@@ -3913,6 +4105,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 77.47) (xy 13.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27767c2-779d-4450-9c60-af11d167b221")
+	)
+	(wire
+		(pts
 			(xy 146.05 147.32) (xy 50.8 147.32)
 		)
 		(stroke
@@ -3921,6 +4123,16 @@
 			(color 255 153 0 1)
 		)
 		(uuid "e290f483-de06-4a49-b434-58be4d420d6c")
+	)
+	(wire
+		(pts
+			(xy 19.05 68.58) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6968e74-5a41-4428-bdde-52df7e7bdca7")
 	)
 	(wire
 		(pts
@@ -3961,16 +4173,6 @@
 			(type default)
 		)
 		(uuid "ee54c24e-ed2c-4cfd-b74c-d7f7d67782d2")
-	)
-	(wire
-		(pts
-			(xy 13.97 55.88) (xy 13.97 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefba67e-b024-4145-a27f-69cf8acaca57")
 	)
 	(wire
 		(pts
@@ -4055,7 +4257,7 @@
 		)
 		(uuid "ff566568-c21d-4a90-a3b4-d10b08c41d92")
 	)
-	(label "DIT4192-TX+"
+	(label "XLR-TX+"
 		(at 252.73 44.45 0)
 		(effects
 			(font
@@ -4065,7 +4267,17 @@
 		)
 		(uuid "01618831-8f96-4af4-8d94-2a1021f949da")
 	)
-	(label "DIT4192-TX-"
+	(label "5V0"
+		(at 119.38 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0502eefa-f733-4f86-9193-7c16688e79e5")
+	)
+	(label "XLR-TX-"
 		(at 267.97 44.45 0)
 		(effects
 			(font
@@ -4094,6 +4306,70 @@
 			(justify left bottom)
 		)
 		(uuid "ee752bf1-0702-4e67-a287-113a66f8654c")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00620c7a-4541-414f-9a30-55825c0b0e11")
+		(property "Reference" "#PWR09"
+			(at 13.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 13.97 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7f562e-d837-4055-818a-8bfb546d2616")
+		)
+		(instances
+			(project "soundrocket"
+				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4352,6 +4628,75 @@
 			(project "soundrocket"
 				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 29.21 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40a9ac25-e0c5-4c24-b7bd-dd86a6aa0ef7")
+		(property "Reference" "C2"
+			(at 31.75 73.6662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 31.75 76.2062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad Models:CAPRR254W54L381T254H466"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2779ff73-5ce6-4018-a4a9-f3985c353cdd")
+		)
+		(pin "1"
+			(uuid "5609ab55-4b74-430c-9088-a93cba0a2004")
+		)
+		(instances
+			(project "soundrocket"
+				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4707,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PE-65612NL:XFMR_PE-65612NL"
+		(property "Footprint" "PE_65612NL:XFMR_PE-65612NL"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -4807,6 +5152,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 13.97 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85f7e68d-c6b8-494f-b1fe-2c4a9a2f8713")
+		(property "Reference" "C1"
+			(at 16.51 73.6662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 16.51 76.2062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad Models:CAPRR254W54L381T254H466"
+			(at 13.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 13.97 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fc833bc-dfc1-4ee9-a428-ecf963fcb574")
+		)
+		(pin "1"
+			(uuid "2d8d8351-cb47-4fd0-b2c0-a070461b8be1")
+		)
+		(instances
+			(project "soundrocket"
+				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 36.83 0)
 		(unit 1)
@@ -4865,6 +5279,70 @@
 			(project "soundrocket"
 				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b58f45-b7ae-4f95-929c-288cb9e9e1f8")
+		(property "Reference" "#PWR010"
+			(at 29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d387abec-0ede-45c0-aaa9-5188d0765c2d")
+		)
+		(instances
+			(project "soundrocket"
+				(path "/c2f1f363-3261-4b12-abe7-5fb34db71f7d"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5128,7 +5606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 260.35 44.45 0)
 			(effects
 				(font
