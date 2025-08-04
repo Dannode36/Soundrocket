@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.3,
-          "height": 1.9,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 0.41,
+          "width": 1.57
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -253,12 +253,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_not_connected|1168400|533400|89f30741-4117-4479-8a48-ed5394c214d4|00000000-0000-0000-0000-000000000000|/c2f1f363-3261-4b12-abe7-5fb34db71f7d|/c2f1f363-3261-4b12-abe7-5fb34db71f7d|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -512,7 +507,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "5V0"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
