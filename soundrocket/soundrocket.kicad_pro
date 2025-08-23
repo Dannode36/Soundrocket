@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|131866000|63246000|ee073510-c6ff-4435-b95b-b296d916d416|00000000-0000-0000-0000-000000000000",
+          "Pins 3 & 4 are unused. Net's removed"
+        ]
+      ],
       "meta": {
         "version": 2
       },

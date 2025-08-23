@@ -1317,9 +1317,9 @@
 		(descr "Bourns rotary encoder, PEC12R, with switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf")
 		(tags "rotary encoder")
 		(property "Reference" "SW2"
-			(at 3 -4.75 0)
+			(at 2.995 -4.866 0)
 			(layer "F.SilkS")
-			(uuid "dc073614-1780-4cc5-a9bd-f15cb313f458")
+			(uuid "0073f09d-ca90-4e9f-965f-041bdab9087c")
 			(effects
 				(font
 					(size 1 1)
@@ -1330,7 +1330,7 @@
 		(property "Value" "RotaryEncoder_Switch"
 			(at 7.25 -6.136 0)
 			(layer "F.Fab")
-			(uuid "37545185-83f5-46e1-b9cd-604f8e18f363")
+			(uuid "364cec2c-f451-4042-9650-2667e708600f")
 			(effects
 				(font
 					(size 1 1)
@@ -1343,7 +1343,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c767a9c-69a4-4d7d-b538-75020611446e")
+			(uuid "d789e5a2-1f50-4f43-80fc-7dd833ba03cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9a06e1a-34d6-4da7-b204-0c06772ee57c")
+			(uuid "5db91905-ce6d-4572-8f55-1b03da717e9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2115,7 @@
 		(property "Reference" "J1"
 			(at 3.81 -12 0)
 			(layer "F.SilkS")
-			(uuid "c694a761-69a4-425c-a419-a09a32e7b871")
+			(uuid "1b0dcd05-19a1-4af8-a301-0e9bcf7006e1")
 			(effects
 				(font
 					(size 1 1)
@@ -2126,7 +2126,7 @@
 		(property "Value" "XLR3 MALE (OUT)"
 			(at 3.81 16 0)
 			(layer "F.Fab")
-			(uuid "c288a4db-0db6-4d66-9e65-6ab00a0f917b")
+			(uuid "a76c5c26-1ab4-4a6b-acc3-2ab0392b5e96")
 			(effects
 				(font
 					(size 1 1)
@@ -2139,7 +2139,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71bded4f-5ece-4cb5-8845-08e974fef332")
+			(uuid "fb37013d-25bf-4d15-b7f4-e9a409a0cd76")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2152,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07b4c91b-74c6-49a8-bedb-e88699e91248")
+			(uuid "8e053d1f-0fff-44c2-8b6d-5d9510a3a441")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,7 @@
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
 		(property "Reference" "GND"
-			(at 0 -1.648 0)
+			(at 0 -2.032 0)
 			(layer "F.SilkS")
 			(uuid "cdd38db6-4a4b-4666-afba-aae073bca892")
 			(effects
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 1.75 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "6b9fabd5-49e2-40fd-8306-659c9c35aa74")
 			(effects
@@ -3944,7 +3944,7 @@
 			(uuid "b1741082-7298-4930-8737-fa7d5ff2b309")
 		)
 		(fp_text user "GND"
-			(at 0 -1.65 0)
+			(at 0 -2.032 0)
 			(layer "F.Fab")
 			(uuid "4367da38-43ee-431c-a84f-63b09967b92b")
 			(effects
@@ -3970,11 +3970,11 @@
 		(uuid "a8ec40eb-36e7-4a68-98e6-ce2767ebb819")
 		(at 122.428 51.308 -90)
 		(tags "CF14JT10K0 ")
-		(property "Reference" "R5"
-			(at 5.715 0 270)
+		(property "Reference" "PUR5"
+			(at 14.478 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c8437252-9d18-4d61-80bf-679aca16d878")
+			(uuid "7f72ded9-c5d5-4fd9-bdb1-bc86a86d1cf1")
 			(effects
 				(font
 					(size 1 1)
@@ -3986,7 +3986,7 @@
 			(at 5.715 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6682f861-0d12-440a-9aff-c56dab551603")
+			(uuid "25512068-7a2a-47ea-ad02-34334c316250")
 			(effects
 				(font
 					(size 1 1)
@@ -3998,7 +3998,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "188b39f9-133f-41fc-807f-f386177268eb")
+			(uuid "e83fe7a2-de4d-416e-b5fe-7506f8fd3dc9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "230f67bf-b138-4385-8056-52c5d57b4889")
+			(uuid "c7f0baed-6026-43d7-9dfe-102cf4c85cc7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4284,7 +4284,7 @@
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
 		(property "Reference" "5V"
-			(at 0 -1.648 0)
+			(at 0 -2.032 0)
 			(layer "F.SilkS")
 			(uuid "5b3ae10c-400b-4eb7-a31e-d2c6978074d5")
 			(effects
@@ -4295,7 +4295,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 0 1.75 0)
+			(at 0 2.032 0)
 			(layer "F.Fab")
 			(uuid "287b70e2-7870-4f08-b4e9-84d46b8dd0a1")
 			(effects
@@ -4355,7 +4355,7 @@
 			(uuid "be942aea-373a-40c5-b84e-c2bd526dcf03")
 		)
 		(fp_text user "5V"
-			(at 0 -1.65 0)
+			(at 0 -2.032 0)
 			(layer "F.Fab")
 			(uuid "cfafc346-357b-4756-8cbc-2ea7906dba27")
 			(effects
@@ -5305,11 +5305,11 @@
 		(uuid "d9b7a84c-b43e-4eae-b99e-d3800abf96e6")
 		(at 165.608 67.31)
 		(tags "CF14JT10K0 ")
-		(property "Reference" "R2"
-			(at 13.462 0 0)
+		(property "Reference" "PUR2"
+			(at 14.478 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "2843c226-a523-4e2a-8b48-32af81da0689")
+			(uuid "76a7de99-c80b-492e-bcc1-212bf1c3d8a8")
 			(effects
 				(font
 					(size 1 1)
@@ -5321,7 +5321,7 @@
 			(at 5.715 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b776df4d-8b62-484e-84c5-438105086b72")
+			(uuid "82cfe24b-c570-4ea2-bf09-0061c5782c8f")
 			(effects
 				(font
 					(size 1 1)
@@ -5333,7 +5333,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d29bad3f-7138-4dec-b123-14449add313e")
+			(uuid "b1006147-ae08-48ea-8e50-c6a5592d415c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5345,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52410566-a054-406f-9348-4fe2e094399d")
+			(uuid "3f2f5a60-6ca1-4a8b-a3a9-6c6496111235")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,9 +5619,9 @@
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW1"
-			(at 5.83 -5.41 90)
+			(at 6.25 9.572 270)
 			(layer "F.SilkS")
-			(uuid "d08872a3-3f7c-4c7d-89ba-53b310bbaea4")
+			(uuid "3ad82677-9245-4a77-9483-2cfda99906be")
 			(effects
 				(font
 					(size 1 1)
@@ -5632,7 +5632,7 @@
 		(property "Value" "SW_Push"
 			(at 5.996 10.628 90)
 			(layer "F.Fab")
-			(uuid "c3fec7e3-cd68-4c56-93c5-fa2dd39041c4")
+			(uuid "a3ae1761-681c-4e89-ac1f-69120866e900")
 			(effects
 				(font
 					(size 1 1)
@@ -5645,7 +5645,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc3f3c82-53ef-4852-823c-bf990f66003b")
+			(uuid "dbf672f4-4782-4d5e-9ba1-9ba7be10c32e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5658,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6bdbeea-6e43-4808-8aea-fce27c0086a1")
+			(uuid "8b750301-ca22-42df-a955-bd93fcf6e228")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,11 +5850,11 @@
 		(uuid "f3b4c3ac-73e1-498f-bad2-eb8b244afaef")
 		(at 165.608 71.374)
 		(tags "CF14JT10K0 ")
-		(property "Reference" "R1"
-			(at 13.462 0 0)
+		(property "Reference" "PUR1"
+			(at 14.478 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "18ec384d-11c1-42c1-bcad-cb5f700f13a9")
+			(uuid "b165f73f-e06f-45b4-ad8a-6219fd22ce72")
 			(effects
 				(font
 					(size 1 1)
@@ -5866,7 +5866,7 @@
 			(at 5.715 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "35acacfb-068e-4821-afa7-a4da8d974087")
+			(uuid "d1e424a7-24f5-4d05-aeb6-f64d9f5b2d95")
 			(effects
 				(font
 					(size 1 1)
@@ -5878,7 +5878,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8478171-81a7-4201-83cd-b5427af5cc62")
+			(uuid "4d2bc289-cd53-4f4f-9312-058b8d3ee9e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5890,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56314e40-9a03-4cd1-bf74-432f2c784dc0")
+			(uuid "482996ed-3a6a-4c79-8d10-f1b83af68b18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,14 +6180,27 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Designed by Daniel A."
-		(at 130.81 30.226 0)
+	(gr_text "sr-proto-rev2"
+		(at 195.326 71.628 0)
+		(layer "F.SilkS")
+		(uuid "2b852c8b-a609-46e6-91d6-669786351876")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Designed by Daniel A"
+		(at 191.008 73.152 0)
 		(layer "F.SilkS")
 		(uuid "2f8091c9-d733-4045-8731-06ae01f8d329")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 0.8 0.8)
+				(thickness 0.16)
 				(bold yes)
 			)
 			(justify left bottom)
